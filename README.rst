@@ -15,7 +15,7 @@ library or framework regardless of the type of I/O they do. I.e. by
 leaving out I/O, a network protocol library can be used by either
 synchronous or asynchronous I/O code.
 
-[Cory Benfield's PyCon US 2016 talk](https://www.youtube.com/watch?v=7cC3_jGwl_U)
+`Cory Benfield's PyCon US 2016 talk <https://www.youtube.com/watch?v=7cC3_jGwl_U>`_
 provides a nice overview as to why designing protocol implementations
 this way is important and the best way to do so.
 
@@ -23,13 +23,14 @@ this way is important and the best way to do so.
 Implementations
 ---------------
 
-======== =======
-Protocol Project
-======== =======
-HTTP/2   `hyper-h2`_
-HTTP/1.1 h11_
-======== =======
+=========== =======
+Protocol    Project
+=========== =======
+`HTTP/2`_   `hyper-h2`_
+`HTTP/1.1`_ h11_
+=========== =======
 
-
+.. _HTTP/2: https://http2.github.io/
 .. _hyper-h2: https://github.com/python-hyper/hyper-h2
+.. _HTTP/1.1: https://tools.ietf.org/html/rfc2616
 .. _h11: https://github.com/njsmith/h11
