@@ -1,6 +1,6 @@
 # Network Protocols, sans I/O
 
-This repository is the source code to http://sans-io.readthedocs.io/.
+This repository is the source code to https://sans-io.readthedocs.io/.
 That page is meant to document the various Python implementations of
 network protocols that do not perform any I/O on their own. This is
 considered the best way to implement network protocols going forward
