@@ -17,6 +17,11 @@ code regardless of their I/O decisions.
 In other words by leaving I/O out of the picture a network protocol
 library allows itself to be used by both synchronous and asynchronous
 I/O code.
+And by not simply abstracting out the I/O it allows users of the
+library to drive the network interactions themselves, not the network
+protocol library itself; not forcing I/O code to have to conform to a
+certain API provides the greatest flexibility for users of such
+low-level details such as network protocols.
 Working towards this unbinding of network protocols from I/O is very
 important as the Python community migrates from synchronous I/O code
 to using ``async``/``await`` for asynchronous I/O.
