@@ -22,7 +22,7 @@ network protocol library can be used by either synchronous or
 asynchronous I/O code. This can also extend to other I/O-related areas
 such as files, but historically network protocol implementations have
 (unnecessarily) been tightly bound to a specific form of I/O. This is
-very important to the Python community migrates to using
+very important as the Python community migrates to using
 ``async``/``await``.
 
 `Cory Benfield's PyCon US 2016 talk <https://www.youtube.com/watch?v=7cC3_jGwl_U>`_
