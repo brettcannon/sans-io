@@ -3,8 +3,8 @@ Network protocols, sans I/O
 
 This page is to provide a single location for people to reference when
 looking for network protocol implementations written in Python that
-perform **no** I/O (this means libraries that operate on bytes, which
-excludes libraries that just abstract out I/O).
+perform **no** I/O (this means libraries that operate directly on
+text or bytes; this excludes libraries that just abstract out I/O).
 
 
 Why?
@@ -12,8 +12,8 @@ Why?
 
 In a word: *reusability*.
 By implementing network protocols without any I/O and instead
-operating on bytes alone, libraries allow for reuse by other code
-regardless of their I/O decisions.
+operating on bytes or text alone, libraries allow for reuse by other
+code regardless of their I/O decisions.
 In other words by leaving I/O out of the picture a network protocol
 library allows itself to be used by both synchronous and asynchronous
 I/O code.
