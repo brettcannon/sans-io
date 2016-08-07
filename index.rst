@@ -3,21 +3,23 @@ Network protocols, sans I/O
 
 This page is to provide a single location for people to reference when
 looking for network protocol implementations written in Python that
-perform no I/O.
+perform **no** I/O (this means libraries that abstract out I/O are
+also excluded).
 
 
 Why?
 ----
 
-In a word: reusability. By implementing network protocols without any
-I/O it allows the implementing library to be reused by any other
-library or framework regardless of the type of I/O they do. I.e. by
-leaving out I/O, a network protocol library can be used by either
-synchronous or asynchronous I/O code. This can also extend to other
-I/O-related areas such as files, but historically network protocol
-implementations have (unnecessarily) been tightly bound to a specific
-form of I/O. This is very important as the Python community migrates
-to using ``async``/``await``.
+In a word: *reusability*.
+By implementing network protocols without any I/O and instead
+operating on bytes alone, libraries allow for reuse by other code
+regardless of their I/O decisions.
+In other words by leaving I/O out of the picture a network protocol
+library allows itself to be used by both synchronous and asynchronous
+I/O code.
+Working towards this unbinding of network protocols from I/O is very
+important as the Python community migrates from synchronous I/O code
+to using ``async``/``await`` for asynchronous I/O.
 
 `Cory Benfield's PyCon US 2016 talk <https://www.youtube.com/watch?v=7cC3_jGwl_U>`_
 provides a nice overview as to why designing protocol implementations
