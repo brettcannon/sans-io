@@ -31,6 +31,16 @@ provides a nice overview as to why designing protocol implementations
 this way is important and the best way to do so going forward for the
 Python community.
 
+More Detail
+-----------
+
+For more detail, see the following documents:
+
+.. toctree::
+   :maxdepth: 2
+
+   how-to-sans-io
+
 
 Implementations
 ---------------
