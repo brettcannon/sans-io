@@ -2,8 +2,8 @@ Writing I/O-Free (Sans-I/O) Protocol Implementations
 ====================================================
 
 This informational document is an attempt to make the case for implementing
-network protocols without writing I/O, and to provide concrete assistance and
-instructions for doing so in Python.
+network protocols without performing I/O, and to provide concrete assistance
+and instructions for doing so in Python.
 
 What Is An I/O-Free Protocol Implementation?
 --------------------------------------------
@@ -59,7 +59,7 @@ On a self-serving level, writing a protocol implementation containing no I/O
 makes writing a high-quality implementation substantially easier. It is no
 secret that network I/O is particularly prone to a wide variety of unexpected
 failure modes that can occur at almost any time, even in the simplest cases.
-When the protocol implementation no longer drives its own I/O, but instead has
+When the protocol implementation no longer drives its own I/O but instead has
 data passed to and from it using in-memory buffers of bytes, the space of
 possible failures is *subtantially* decreased.
 
@@ -74,7 +74,7 @@ implementation has a much simpler time managing its input and output data.
 This simplicity also ends up stretching to flow control within the
 implementation as well. Given that the implementation now spends all its time
 reading from and writing to byte buffers, it is never possible for the
-implementation to block or need to stop, except when it runs out of room in its
+implementation to block or need to stop except when it runs out of room in its
 buffers. There is never any requirement to pause computation in order to wait
 for more data to arrive or for data to be sent, and it is relatively easy to
 structure your implementation so it does not have to be safe to re-entrancy.
@@ -93,7 +93,7 @@ locations in the state space.
 Additionally, because the code under test deals only with buffers of bytes for
 both its input and output, the test code no longer needs to pretend to manage
 sockets. It becomes extremely simple to write tests that validate the
-correctness of the implementation, because those tests simply shove sequences
+correctness of the implementation because those tests simply shove sequences
 of bytes in and validate the sequences of bytes that come out. As there is no
 I/O involved in the implementation (even mocked-out I/O), there is no risk of
 non-determinism in the tests. Either the test passes or it does not: it will
@@ -177,8 +177,8 @@ for a network protocol: you may want to learn how the protocol works, or you
 may believe that the current implementations have poor APIs or poor
 correctness. However, many reimplementations do not occur for these reasons:
 instead, they occur because all current implementations either bake their I/O
-in or they bake their expected flow control mechanisms. For example, aiohttp
-was not able to use httplib's parser, because httplib bakes its socket calls
+in or they bake their expected flow control mechanisms. For example, `aiohttp`_
+was not able to use `httplib`_'s parser, because httplib bakes its socket calls
 into that parser, making it unsuitable for an asyncio environment.
 
 By keeping async flow control and I/O out of your protocol implementation, it
@@ -201,7 +201,7 @@ the Python community with huge advantages:
   which is not easily possible with most I/O-included implementations.
 
 This also allows us to centralize our work. If all, or even most, Python
-libraries center around the same small number of implementations of popular
+libraries centre around the same small number of implementations of popular
 protocols, that makes it possible for the best protocol experts in the Python
 community to focus their efforts on fixing bugs and adding features to the core
 protocol implementations, leading to a "rising tide lifts all boats" effect on
@@ -291,7 +291,7 @@ model. The second is provide an implementation that can easily be swapped to
 run in multiple I/O models. Each has different design requirements.
 
 If you are designing for a full native-feeling API for a given I/O model (e.g.
-Twisted or asyncio), you will want to buy entirely into that platform's
+`Twisted`_ or `asyncio`_), you will want to buy entirely into that platform's
 standard design patterns. You can liberally use flow control primitives and
 the appropriate interfaces and I/O mechanisms to transfer data. This allows you
 to build a module like, for example, `aiohttp`_ without having to reimplement
@@ -321,8 +321,11 @@ frameworks that are used and loved by the Python community.
 
 .. _Clean Architecture: https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html
 .. _increasingly ill-afford: http://www.fordfoundation.org/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure/
-.. _curio: http://curio.readthedocs.io/en/latest/
+.. _curio: https://curio.readthedocs.io/en/latest/
 .. _TCP_NOTSENT_LOWAT: https://lwn.net/Articles/560082/
 .. _hyper-h2: https://github.com/python-hyper/hyper-h2
 .. _h11: https://github.com/njsmith/h11
-.. _aiohttp: http://aiohttp.readthedocs.io/en/stable/
+.. _aiohttp: https://aiohttp.readthedocs.io/en/stable/
+.. _httplib: https://docs.python.org/3/library/http.client.html
+.. _Twisted: https://twistedmatrix.com/trac/
+.. _asyncio: https://docs.python.org/3/library/asyncio.html
