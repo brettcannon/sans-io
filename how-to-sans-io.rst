@@ -211,7 +211,7 @@ the community.
 How To Write I/O-Free Protocol Implementations
 ----------------------------------------------
 
-Assuming that :doc:`why-bother` has convinced you, the logical next question
+Assuming that :ref:`why-bother` has convinced you, the logical next question
 is: how do you write a protocol implementation that does no I/O?
 
 While each protocol is unique, there are several core design principles that
