@@ -61,7 +61,7 @@ secret that network I/O is particularly prone to a wide variety of unexpected
 failure modes that can occur at almost any time, even in the simplest cases.
 When the protocol implementation no longer drives its own I/O but instead has
 data passed to and from it using in-memory buffers of bytes, the space of
-possible failures is *subtantially* decreased.
+possible failures is *substantially* decreased.
 
 Given that writing to and reading from memory never fails, the implementation
 has a much simpler time managing its data. The only concern the implementation
