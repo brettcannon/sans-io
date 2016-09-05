@@ -45,15 +45,15 @@ For more detail, see the following documents:
 Implementations
 ---------------
 
-=========================== =======
+=========================== ===========
 Protocol                    Project
-=========================== =======
+=========================== ===========
 `FastCGI`_                  fcgiproto_
 `HTTP/2`_                   `hyper-h2`_
-`HTTP/1.1`_                  h11_
-`OAuth 1.0`_ & `OAuth 2.0`_  oauthlib_
-`WebSocket`_                 wsproto_
-=========================== =======
+`HTTP/1.1`_                 h11_
+`OAuth 1.0`_ & `OAuth 2.0`_ oauthlib_
+`WebSocket`_                wsproto_
+=========================== ===========
 
 .. _FastCGI: https://htmlpreview.github.io/?https://github.com/FastCGI-Archives/FastCGI.com/blob/master/docs/FastCGI%20Specification.html
 .. _fcgiproto: https://github.com/agronholm/fcgiproto
