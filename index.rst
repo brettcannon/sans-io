@@ -51,6 +51,7 @@ Protocol                    Project
 `FastCGI`_                  fcgiproto_
 `HTTP/2`_                   `hyper-h2`_
 `HTTP/1.1`_                 h11_
+`IRC`_                      ircproto_
 `OAuth 1.0`_ & `OAuth 2.0`_ oauthlib_
 `WebSocket`_                wsproto_
 =========================== ===========
@@ -61,10 +62,10 @@ Protocol                    Project
 .. _hyper-h2: https://github.com/python-hyper/hyper-h2
 .. _HTTP/1.1: https://tools.ietf.org/html/rfc7230
 .. _h11: https://github.com/njsmith/h11
-.. _wsproto: https://github.com/jeamland/wsproto
-
+.. _IRC: https://tools.ietf.org/html/rfc2812
+.. _ircproto: https://github.com/agronholm/ircproto
 .. _OAuth 1.0: https://tools.ietf.org/html/rfc5849
 .. _OAuth 2.0: https://tools.ietf.org/html/rfc6749
 .. _oauthlib: https://github.com/idan/oauthlib
-
 .. _WebSocket: http://tools.ietf.org/html/rfc6455
+.. _wsproto: https://github.com/jeamland/wsproto
