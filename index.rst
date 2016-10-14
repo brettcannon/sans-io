@@ -69,3 +69,14 @@ Protocol                    Project
 .. _oauthlib: https://github.com/idan/oauthlib
 .. _WebSocket: http://tools.ietf.org/html/rfc6455
 .. _wsproto: https://github.com/jeamland/wsproto
+
+
+Libraries
+---------
+
+There are also some libraries that help to implement network protocols without
+performing any I/O:
+
+  * `ohneio`_ (`Getting started <https://ohneio.readthedocs.io/en/latest/getting_started.html#getting-started>`_)
+
+.. _ohneio: https://github.com/acatton/ohneio
