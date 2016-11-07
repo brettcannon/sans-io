@@ -54,6 +54,7 @@ Protocol                    Project
 `IRC`_                      ircproto_
 `OAuth 1.0`_ & `OAuth 2.0`_ oauthlib_
 `WebSocket`_                wsproto_
+`SOCKSv5`_                  socks5_
 =========================== ===========
 
 .. _FastCGI: https://htmlpreview.github.io/?https://github.com/FastCGI-Archives/FastCGI.com/blob/master/docs/FastCGI%20Specification.html
@@ -69,6 +70,8 @@ Protocol                    Project
 .. _oauthlib: https://github.com/idan/oauthlib
 .. _WebSocket: http://tools.ietf.org/html/rfc6455
 .. _wsproto: https://github.com/jeamland/wsproto
+.. _SOCKSv5: https://tools.ietf.org/html/rfc1928
+.. _socks5: https://github.com/mike820324/socks5
 
 
 Libraries
