@@ -80,6 +80,8 @@ Libraries
 There are also some libraries that help to implement network protocols without
 performing any I/O:
 
-  * `ohneio`_ (`Getting started <https://ohneio.readthedocs.io/en/latest/getting_started.html#getting-started>`_)
+  * `ohneio`_ (network protocol parsing; `Getting started <https://ohneio.readthedocs.io/en/latest/getting_started.html#getting-started>`_)
+  * gidgethub_ (GitHub API)
 
 .. _ohneio: https://github.com/acatton/ohneio
+.. _gidgethub: https://gidgethub.readthedocs.io/
