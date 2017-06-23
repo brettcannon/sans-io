@@ -5,4 +5,4 @@ cache: pip
 before_script:
   - python -m pip install --upgrade sphinx
 script:
-  - make check suspicious html SPHINXOPTS="-q -W -j4"
+  - make linkcheck html SPHINXOPTS="-q -W -j4"
