@@ -45,17 +45,18 @@ For more detail, see the following documents:
 Implementations
 ---------------
 
-=========================== ===========
-Protocol                    Project
-=========================== ===========
-`FastCGI`_                  fcgiproto_
-`HTTP/2`_                   `hyper-h2`_
-`HTTP/1.1`_                 h11_
-`IRC`_                      ircproto_
-`OAuth 1.0`_ & `OAuth 2.0`_ oauthlib_
-`WebSocket`_                wsproto_
-`SOCKSv5`_                  socks5_
-=========================== ===========
+============================ ===========
+Protocol                     Project
+============================ ===========
+`FastCGI`_                   fcgiproto_
+`HTTP/2`_                    `hyper-h2`_
+`HTTP/1.1`_                  h11_
+`IRC`_                       ircproto_
+`OAuth 1.0`_ & `OAuth 2.0`_  oauthlib_
+`WebSocket`_                 wsproto_
+`SOCKSv5`_                   socks5_
+`RFC 2217 (Serial over IP)`_ pyserial_
+============================ ===========
 
 .. _FastCGI: https://htmlpreview.github.io/?https://github.com/FastCGI-Archives/FastCGI.com/blob/master/docs/FastCGI%20Specification.html
 .. _fcgiproto: https://github.com/agronholm/fcgiproto
@@ -72,6 +73,8 @@ Protocol                    Project
 .. _wsproto: https://github.com/jeamland/wsproto
 .. _SOCKSv5: https://tools.ietf.org/html/rfc1928
 .. _socks5: https://github.com/mike820324/socks5
+.. _RFC 2217 (Serial over IP): https://tools.ietf.org/html/rfc2217
+.. _pyserial: https://pythonhosted.org/pyserial/pyserial_api.html#serial.rfc2217.PortManager
 
 
 Libraries
