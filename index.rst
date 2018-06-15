@@ -56,6 +56,7 @@ Protocol                     Project
 `WebSocket`_                 wsproto_
 `SOCKSv5`_                   socks5_
 `RFC 2217 (Serial over IP)`_ pyserial_
+`EPICS Channel Access`_      caproto_
 ============================ ===========
 
 .. _FastCGI: https://htmlpreview.github.io/?https://github.com/FastCGI-Archives/FastCGI.com/blob/master/docs/FastCGI%20Specification.html
@@ -75,6 +76,8 @@ Protocol                     Project
 .. _socks5: https://github.com/mike820324/socks5
 .. _RFC 2217 (Serial over IP): https://tools.ietf.org/html/rfc2217
 .. _pyserial: https://pythonhosted.org/pyserial/pyserial_api.html#serial.rfc2217.PortManager
+.. _EPICS Channel Access: https://epics.anl.gov/base/R3-16/0-docs/CAproto/index.html
+.. _caproto: https://nsls-ii.github.io/caproto
 
 
 Libraries
