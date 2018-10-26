@@ -88,6 +88,8 @@ performing any I/O:
 
   * `ohneio`_ (network protocol parsing; `Getting started <https://ohneio.readthedocs.io/en/latest/getting_started.html#getting-started>`_)
   * gidgethub_ (GitHub API)
+  * google-music-proto_ (Google Music API)
 
 .. _ohneio: https://github.com/acatton/ohneio
 .. _gidgethub: https://gidgethub.readthedocs.io/
+.. _google-music-proto: https://google-music-proto.readthedocs.io/
