@@ -57,6 +57,7 @@ Protocol                     Project
 `SOCKSv5`_                   socks5_
 `RFC 2217 (Serial over IP)`_ pyserial_
 `EPICS Channel Access`_      caproto_
+`FIX 4.0 - 5.0`_             simplefix_
 ============================ ===========
 
 .. _FastCGI: https://htmlpreview.github.io/?https://github.com/FastCGI-Archives/FastCGI.com/blob/master/docs/FastCGI%20Specification.html
@@ -78,6 +79,8 @@ Protocol                     Project
 .. _pyserial: https://pythonhosted.org/pyserial/pyserial_api.html#serial.rfc2217.PortManager
 .. _EPICS Channel Access: https://epics.anl.gov/base/R3-16/0-docs/CAproto/index.html
 .. _caproto: https://nsls-ii.github.io/caproto
+.. _FIX 4.0 - 5.0: https://www.fixtrading.org/standards/fix-5-0-sp-2/
+.. _simplefix: https://github.com/da4089/simplefix
 
 
 Libraries
