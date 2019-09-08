@@ -55,6 +55,7 @@ Protocol                     Project
 `OAuth 1.0`_ & `OAuth 2.0`_  oauthlib_
 `WebSocket`_                 wsproto_
 `SOCKSv5`_                   socks5_
+`SOCKSv4_` & `SOCKSv5`_      siosocks_
 `RFC 2217 (Serial over IP)`_ pyserial_
 `EPICS Channel Access`_      caproto_
 `FIX 4.0 - 5.0`_             simplefix_
@@ -73,8 +74,10 @@ Protocol                     Project
 .. _oauthlib: https://github.com/idan/oauthlib
 .. _WebSocket: http://tools.ietf.org/html/rfc6455
 .. _wsproto: https://github.com/jeamland/wsproto
+.. _SOCKSv4: https://ftp.icm.edu.pl/packages/socks/socks4/SOCKS4.protocol
 .. _SOCKSv5: https://tools.ietf.org/html/rfc1928
 .. _socks5: https://github.com/mike820324/socks5
+.. _siosocks: https://github.com/pohmelie/siosocks
 .. _RFC 2217 (Serial over IP): https://tools.ietf.org/html/rfc2217
 .. _pyserial: https://pythonhosted.org/pyserial/pyserial_api.html#serial.rfc2217.PortManager
 .. _EPICS Channel Access: https://epics.anl.gov/base/R3-16/0-docs/CAproto/index.html
