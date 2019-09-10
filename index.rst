@@ -55,7 +55,7 @@ Protocol                     Project
 `OAuth 1.0`_ & `OAuth 2.0`_  oauthlib_
 `WebSocket`_                 wsproto_
 `SOCKSv5`_                   socks5_
-`SOCKSv4_` & `SOCKSv5`_      siosocks_
+`SOCKSv4`_ & `SOCKSv5`_      siosocks_
 `RFC 2217 (Serial over IP)`_ pyserial_
 `EPICS Channel Access`_      caproto_
 `FIX 4.0 - 5.0`_             simplefix_
