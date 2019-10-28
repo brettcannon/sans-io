@@ -59,6 +59,7 @@ Protocol                     Project
 `RFC 2217 (Serial over IP)`_ pyserial_
 `EPICS Channel Access`_      caproto_
 `FIX 4.0 - 5.0`_             simplefix_
+`QUIC & HTTP/3`_             aioquic_
 ============================ ===========
 
 .. _FastCGI: https://htmlpreview.github.io/?https://github.com/FastCGI-Archives/FastCGI.com/blob/master/docs/FastCGI%20Specification.html
@@ -84,6 +85,8 @@ Protocol                     Project
 .. _caproto: https://nsls-ii.github.io/caproto
 .. _FIX 4.0 - 5.0: https://www.fixtrading.org/standards/fix-5-0-sp-2/
 .. _simplefix: https://github.com/da4089/simplefix
+.. _`QUIC & HTTP/3`: https://quicwg.org/
+.. _aioquic: https://github.com/aiortc/aioquic
 
 
 Libraries
