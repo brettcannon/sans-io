@@ -60,6 +60,7 @@ Protocol                     Project
 `EPICS Channel Access`_      caproto_
 `FIX 4.0 - 5.0`_             simplefix_
 `QUIC & HTTP/3`_             aioquic_
+`Language Server Protocol`_  lsp_
 ============================ ===========
 
 .. _FastCGI: https://htmlpreview.github.io/?https://github.com/FastCGI-Archives/FastCGI.com/blob/master/docs/FastCGI%20Specification.html
@@ -87,6 +88,8 @@ Protocol                     Project
 .. _simplefix: https://github.com/da4089/simplefix
 .. _`QUIC & HTTP/3`: https://quicwg.org/
 .. _aioquic: https://github.com/aiortc/aioquic
+.. _`Language Server Protocol`: https://microsoft.github.io/language-server-protocol/
+.. _lsp: https://github.com/WindSoilder/lsp
 
 
 Libraries
