@@ -61,6 +61,7 @@ Protocol                     Project
 `FIX 4.0 - 5.0`_             simplefix_
 `QUIC & HTTP/3`_             aioquic_
 `Language Server Protocol`_  lsp_
+`SMTP`_                      smtpproto_
 ============================ ===========
 
 .. _FastCGI: https://htmlpreview.github.io/?https://github.com/FastCGI-Archives/FastCGI.com/blob/master/docs/FastCGI%20Specification.html
@@ -90,7 +91,8 @@ Protocol                     Project
 .. _aioquic: https://github.com/aiortc/aioquic
 .. _`Language Server Protocol`: https://microsoft.github.io/language-server-protocol/
 .. _lsp: https://github.com/WindSoilder/lsp
-
+.. _SMTP: https://tools.ietf.org/html/rfc5321
+.. _smtpproto: https://github.com/agronholm/smtpproto
 
 Libraries
 ---------
