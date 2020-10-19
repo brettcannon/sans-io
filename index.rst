@@ -69,7 +69,7 @@ Protocol                     Project
 .. _HTTP/2: https://http2.github.io/
 .. _hyper-h2: https://github.com/python-hyper/hyper-h2
 .. _HTTP/1.1: https://tools.ietf.org/html/rfc7230
-.. _h11: https://github.com/njsmith/h11
+.. _h11: https://github.com/python-hyper/h11
 .. _IRC: https://tools.ietf.org/html/rfc2812
 .. _ircproto: https://github.com/agronholm/ircproto
 .. _OAuth 1.0: https://tools.ietf.org/html/rfc5849
