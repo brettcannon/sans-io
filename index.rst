@@ -62,6 +62,7 @@ Protocol                     Project
 `QUIC & HTTP/3`_             aioquic_
 `Language Server Protocol`_  lsp_
 `SMTP`_                      smtpproto_
+`D-Bus`_                     jeepney_
 ============================ ===========
 
 .. _FastCGI: https://htmlpreview.github.io/?https://github.com/FastCGI-Archives/FastCGI.com/blob/master/docs/FastCGI%20Specification.html
@@ -93,6 +94,8 @@ Protocol                     Project
 .. _lsp: https://github.com/WindSoilder/lsp
 .. _SMTP: https://tools.ietf.org/html/rfc5321
 .. _smtpproto: https://github.com/agronholm/smtpproto
+.. _`D-Bus`: https://www.freedesktop.org/wiki/Software/dbus/
+.. _jeepney: https://gitlab.com/takluyver/jeepney/
 
 Libraries
 ---------
