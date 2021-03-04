@@ -45,9 +45,9 @@ For more detail, see the following documents:
 Implementations
 ---------------
 
-============================ ===========
+============================ ======================
 Protocol                     Project
-============================ ===========
+============================ ======================
 `FastCGI`_                   fcgiproto_
 `HTTP/2`_                    `hyper-h2`_
 `HTTP/1.1`_                  h11_
@@ -63,7 +63,8 @@ Protocol                     Project
 `Language Server Protocol`_  lsp_
 `SMTP`_                      smtpproto_
 `D-Bus`_                     jeepney_
-============================ ===========
+`Thorlabs APT`_              thorlabs-apt-protocol_
+============================ ======================
 
 .. _FastCGI: https://htmlpreview.github.io/?https://github.com/FastCGI-Archives/FastCGI.com/blob/master/docs/FastCGI%20Specification.html
 .. _fcgiproto: https://github.com/agronholm/fcgiproto
@@ -95,7 +96,9 @@ Protocol                     Project
 .. _SMTP: https://tools.ietf.org/html/rfc5321
 .. _smtpproto: https://github.com/agronholm/smtpproto
 .. _`D-Bus`: https://www.freedesktop.org/wiki/Software/dbus/
-.. _jeepney: https://gitlab.com/takluyver/jeepney/
+.. _jeepney: https://gitlab.com/takluyver/jeepney/\
+.. _`Thorlabs APT`: https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=9019
+.. _thorlabs-apt-protocol: https://gitlab.com/yaq/thorlabs-apt-protocol
 
 Libraries
 ---------
