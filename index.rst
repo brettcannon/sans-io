@@ -96,7 +96,7 @@ Protocol                     Project
 .. _SMTP: https://tools.ietf.org/html/rfc5321
 .. _smtpproto: https://github.com/agronholm/smtpproto
 .. _`D-Bus`: https://www.freedesktop.org/wiki/Software/dbus/
-.. _jeepney: https://gitlab.com/takluyver/jeepney/\
+.. _jeepney: https://gitlab.com/takluyver/jeepney/
 .. _`Thorlabs APT`: https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=9019
 .. _thorlabs-apt-protocol: https://gitlab.com/yaq/thorlabs-apt-protocol
 
