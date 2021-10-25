@@ -30,6 +30,7 @@ stacks in this manner.
           specific facet of several broader software design best practices. In
           particular, good comparisons can be made to Bob Martin's `Clean
           Architecture`_, to well-realised Model-View-Controller applications,
+          to Gary Bernhardt's `Functional Core and Imperative Shell`_,
           and to the broader software design principle of separation of
           concerns. While all of these are good patterns worth being understood
           in their own right, it is often helpful to discuss these patterns as
@@ -320,6 +321,7 @@ frameworks that are used and loved by the Python community.
 
 
 .. _Clean Architecture: https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html
+.. _Functional Core and Imperative Shell: https://www.destroyallsoftware.com/talks/boundaries
 .. _increasingly ill-afford: http://www.fordfoundation.org/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure/
 .. _curio: https://curio.readthedocs.io/en/latest/
 .. _TCP_NOTSENT_LOWAT: https://lwn.net/Articles/560082/
