@@ -64,6 +64,7 @@ Protocol                     Project
 `SMTP`_                      smtpproto_
 `D-Bus`_                     jeepney_
 `Thorlabs APT`_              thorlabs-apt-protocol_
+`Matrix`_                    matrix-nio_
 ============================ ======================
 
 .. _FastCGI: https://htmlpreview.github.io/?https://github.com/FastCGI-Archives/FastCGI.com/blob/master/docs/FastCGI%20Specification.html
@@ -99,6 +100,8 @@ Protocol                     Project
 .. _jeepney: https://gitlab.com/takluyver/jeepney/
 .. _`Thorlabs APT`: https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=9019
 .. _thorlabs-apt-protocol: https://gitlab.com/yaq/thorlabs-apt-protocol
+.. _Matrix: https://matrix.org/
+.. _matrix-nio: https://github.com/poljar/matrix-nio
 
 Libraries
 ---------
