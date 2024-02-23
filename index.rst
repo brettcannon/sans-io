@@ -65,6 +65,7 @@ Protocol                     Project
 `D-Bus`_                     jeepney_
 `Thorlabs APT`_              thorlabs-apt-protocol_
 `Matrix`_                    matrix-nio_
+`SSL/TLS`_                   cpython_
 ============================ ======================
 
 .. _FastCGI: https://htmlpreview.github.io/?https://github.com/FastCGI-Archives/FastCGI.com/blob/master/docs/FastCGI%20Specification.html
@@ -102,6 +103,8 @@ Protocol                     Project
 .. _thorlabs-apt-protocol: https://gitlab.com/yaq/thorlabs-apt-protocol
 .. _Matrix: https://matrix.org/
 .. _matrix-nio: https://github.com/poljar/matrix-nio
+.. _SSL/TLS: https://tlswg.org/
+.. _cpython: https://docs.python.org/3/library/ssl.html#memory-bio-support
 
 Libraries
 ---------
