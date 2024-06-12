@@ -80,7 +80,7 @@ Protocol                     Project
 .. _OAuth 2.0: https://tools.ietf.org/html/rfc6749
 .. _oauthlib: https://github.com/idan/oauthlib
 .. _WebSocket: http://tools.ietf.org/html/rfc6455
-.. _wsproto: https://github.com/jeamland/wsproto
+.. _wsproto: https://github.com/python-hyper/wsproto
 .. _SOCKSv4: https://ftp.icm.edu.pl/packages/socks/socks4/SOCKS4.protocol
 .. _SOCKSv5: https://tools.ietf.org/html/rfc1928
 .. _socks5: https://github.com/mike820324/socks5
