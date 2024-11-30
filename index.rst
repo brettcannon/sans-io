@@ -66,6 +66,7 @@ Protocol                     Project
 `Thorlabs APT`_              thorlabs-apt-protocol_
 `Matrix`_                    matrix-nio_
 `SSL/TLS`_                   cpython_
+`multipart/form-data`_       multipart_
 ============================ ======================
 
 .. _FastCGI: https://htmlpreview.github.io/?https://github.com/FastCGI-Archives/FastCGI.com/blob/master/docs/FastCGI%20Specification.html
@@ -105,6 +106,8 @@ Protocol                     Project
 .. _matrix-nio: https://github.com/poljar/matrix-nio
 .. _SSL/TLS: https://tlswg.org/
 .. _cpython: https://docs.python.org/3/library/ssl.html#memory-bio-support
+.. _multipart/form-data: https://www.rfc-editor.org/rfc/rfc7578
+.. _multipart: https://github.com/defnull/multipart
 
 Libraries
 ---------
