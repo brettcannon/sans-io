@@ -62,6 +62,7 @@ Protocol                     Project
 `QUIC & HTTP/3`_             aioquic_
 `Language Server Protocol`_  lsp_
 `SMTP`_                      smtpproto_
+`MQTTv5`_                    mqtt5_
 `D-Bus`_                     jeepney_
 `Thorlabs APT`_              thorlabs-apt-protocol_
 `Matrix`_                    matrix-nio_
@@ -108,6 +109,8 @@ Protocol                     Project
 .. _cpython: https://docs.python.org/3/library/ssl.html#memory-bio-support
 .. _multipart/form-data: https://www.rfc-editor.org/rfc/rfc7578
 .. _multipart: https://github.com/defnull/multipart
+.. _MQTTv5: https://mqtt.org
+.. _mqtt5: https://github.com/empicano/mqtt5
 
 Libraries
 ---------
