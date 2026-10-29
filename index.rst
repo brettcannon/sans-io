@@ -68,6 +68,7 @@ Protocol                     Project
 `Matrix`_                    matrix-nio_
 `SSL/TLS`_                   cpython_
 `multipart/form-data`_       multipart_
+`Apache Kafka`_              kio_
 ============================ ======================
 
 .. _FastCGI: https://htmlpreview.github.io/?https://github.com/FastCGI-Archives/FastCGI.com/blob/master/docs/FastCGI%20Specification.html
@@ -111,6 +112,8 @@ Protocol                     Project
 .. _multipart: https://github.com/defnull/multipart
 .. _MQTTv5: https://mqtt.org
 .. _mqtt5: https://github.com/empicano/mqtt5
+.. _Apache Kafka: https://kafka.apache.org/protocol/
+.. _kio: https://github.com/Aiven-Open/kio
 
 Libraries
 ---------
