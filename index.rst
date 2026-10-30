@@ -69,6 +69,7 @@ Protocol                     Project
 `SSL/TLS`_                   cpython_
 `multipart/form-data`_       multipart_
 `Apache Kafka`_              kio_
+`HTTP/2`_                    ngh2_
 ============================ ======================
 
 .. _FastCGI: https://htmlpreview.github.io/?https://github.com/FastCGI-Archives/FastCGI.com/blob/master/docs/FastCGI%20Specification.html
@@ -114,6 +115,7 @@ Protocol                     Project
 .. _mqtt5: https://github.com/empicano/mqtt5
 .. _Apache Kafka: https://kafka.apache.org/protocol/
 .. _kio: https://github.com/Aiven-Open/kio
+.. _ngh2: https://github.com/cnzakii/ngh2
 
 Libraries
 ---------
